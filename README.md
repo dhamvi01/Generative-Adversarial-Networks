@@ -4,8 +4,8 @@ Generative models are a family of AI architectures whose aim is to create data s
 
 ## The GANs Framework
 A GAN is composed of two separate models, represented by neural networks: 
-   - generator G
-   - discriminator D
+   - Generator G
+   - Discriminator D
 The goal of the generator is to generate data samples such as to fool the discriminator.
 
 The generator is nothing but a deep neural network. It takes as input a vector of random noise (usually Gaussian or from a Uniform distribution) and outputs a data sample from the distribution we want to capture.
